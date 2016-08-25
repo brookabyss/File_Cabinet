@@ -1,3 +1,6 @@
+
+// STYLING FOR WELCOME PAGE
+
 #banner {
 	background-image: url(image_path("welcome_banner_image.jpg"));
 	background-size: cover;
@@ -59,7 +62,7 @@
 		float: left;
 		h2 {
 			@include bold_font;
-			color: white;
+			color: rgba(255, 255, 255, 0.9);
 			margin-bottom: 0;
 		}
 		p {
